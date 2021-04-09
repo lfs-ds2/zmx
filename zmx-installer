@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 BIN_DIR="/usr/bin"
 MAIN_FILE="zmx"
