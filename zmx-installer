@@ -19,5 +19,7 @@ sudo mv $MAIN_FILE $BIN_DIR
 
 sleep 3
 
+pip3 install -r requirements.txt -q
+
 echo ""
 echo "--       Done        --"
