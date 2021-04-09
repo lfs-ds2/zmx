@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 
 BIN_DIR="/usr/bin"
+MAIN_FILE="zmx"
+
+chmod +x $MAIN_FILE
 
 clear
 
@@ -12,7 +15,7 @@ echo "name: (default zmx)"
 
 sleep 1
 
-sudo mv zmx $BIN_DIR
+sudo mv $MAIN_FILE $BIN_DIR
 
 sleep 3
 
