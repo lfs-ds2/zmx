@@ -2,6 +2,6 @@
 
 ## using installer
 
-```
-bash chmod +x zmx-installer
+```bash
+chmod +x zmx-installer
 ```
