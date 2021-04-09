@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+BIN_DIR="/usr/bin"
+
+clear
+
+echo "--   ZMX Installer  --"
+echo ""
+echo "path: (default /usr/bin)"
+sleep 0.1
+echo "name: (default zmx)"
+
+sleep 1
+
+sudo mv zmx $BIN_DIR
+
+sleep 3
+
+echo ""
+echo "--       Done        --"
